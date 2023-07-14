@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Conversor Moeda</h2>
+</div>
+<div class="input-size">
+  <label for=""
+    >R$:
+    <input type="text" (keyup)="converteMoeda()" [(ngModel)]="valor" />
+  </label>
+</div>
+
+<app-table [moeda]="moeda"></app-table>

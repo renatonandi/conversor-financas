@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(93, 165, 247);
+    min-height: 100vh;
+    
+    h1{
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        color: white;
+    }
+}
